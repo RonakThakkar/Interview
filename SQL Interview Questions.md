@@ -14,6 +14,11 @@
 * Types of Joins
 * How do you troubleshoot SQL Server if its running very slow? - First check the processor and memory usage to see that processor is not above 80% utilization and memory not above 40-45% utilization then check the disk utilization using Performance Monitor, Secondly, use SQL Profiler to check for the users and current SQL activities and jobs running which might be a problem. Third would be to run UPDATE_STATISTICS command to update the indexes
 
+Difference Between Function and Stored Procedure
+
+| Function      | Stored Procedure |
+| -----------    -----------       |
+| A FUNCTION always returns a value using the return statement. | A PROCEDURE may return one or more values through parameters or may not return at all.
 
 ## Find Duplicate records in database
 
