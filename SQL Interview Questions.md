@@ -19,6 +19,8 @@ Difference Between Function and Stored Procedure
 | Function      | Stored Procedure |
 | ----------- | ----------- |
 | A FUNCTION always returns a value using the return statement. | A PROCEDURE may return one or more values through parameters or may not return at all |
+| Functions can be called from SQL Queries. | Stored Procedures are supposed to return result to applications |
+| Dml statement cannot be used in function | Dml statement canb be used in procedure |
 
 ## Find Duplicate records in database
 
