@@ -22,7 +22,7 @@ Difference Between Function and Stored Procedure
 
 | Function      | Stored Procedure |
 | ----------- | ----------- |
-| Header      | Title       |
+| A FUNCTION always returns a value using the return statement.      | Title       |
 | Paragraph   | Text        |
 
 ## Find Duplicate records in database
