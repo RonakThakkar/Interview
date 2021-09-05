@@ -39,3 +39,10 @@ new software developer just out of school,     what would it be?
 34.What was the most interesting project that you worked on? 
 35.What was the most challenging project that you worked on? 
 36.If you could have any job in the world, what would it be?
+
+
+What are your achievements
+What is your area of intreset - Management or technology
+What additional reesponsibilities/initiatives that you have taken
+How do you allocate the tasks and track the status.
+	Allocate the tasks, track the status regularly, appreciate/intimate/escalate wherever required, support them.
