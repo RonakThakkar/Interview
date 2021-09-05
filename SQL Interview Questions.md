@@ -17,13 +17,8 @@
 Difference Between Function and Stored Procedure
 
 | Function      | Stored Procedure |
-| -----------    -----------       |
-| A FUNCTION always returns a value using the return statement. | A PROCEDURE may return one or more values through parameters or may not return at all.
-
-| Function      | Stored Procedure |
 | ----------- | ----------- |
-| A FUNCTION always returns a value using the return statement.      | A PROCEDURE may return one or more values through parameters or may not return at all |
-| Paragraph   | Text        |
+| A FUNCTION always returns a value using the return statement. | A PROCEDURE may return one or more values through parameters or may not return at all |
 
 ## Find Duplicate records in database
 
