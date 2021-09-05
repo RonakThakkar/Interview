@@ -14,6 +14,7 @@ SDLC
 	Divide into modules and features. Segregate into maximum possible smaller pieces and estimage. Login example
 Maintainence
 	Tracking the estimates is more important
+
 How would you track the progress of the project
 If no progress happens in the project then how would you handle the situation
 If you are the single person in the project and supposed to grow the customer, how would you approach and what would be your strategy
