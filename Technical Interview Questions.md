@@ -1,4 +1,4 @@
-## General 
+## General
 
 * Page execution on server side
 * Exception handling example
