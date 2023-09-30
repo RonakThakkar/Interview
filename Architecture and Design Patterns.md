@@ -32,3 +32,40 @@
 * DRY
 * YAGNI
 * KISS
+
+# Microservices Patterns
+
+* 12 factor
+* Decomposition by subdomain (bounded context)
+* Data
+ * Database per service
+ * CQRS
+* Externalized configuration
+* Single service per host (docker)
+* BFF
+* Circuit Breaker & Bulk Ahead
+* Security - Access Token
+* Observability
+ * Application Logging
+ * Application Metrics
+ * Distributed tracing
+ * Health Check API
+ * Audit Logging
+* Ambassador / Sidecar
+* Gateway Routing & Gateway Offloading
+* Strangler Fig
+
+NFR
+
+* Performance
+* Availability
+* Scalability
+* Reliability
+* Security
+* Redundancy
+* Data Loss, Data Retension
+* Usability
+* Compatability
+* Maintanability
+* Portability
+* Reusability
