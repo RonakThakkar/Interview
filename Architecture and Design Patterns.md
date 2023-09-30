@@ -26,14 +26,14 @@
 * MQTT
 * AMQP
 
-# Clean Code
+## Clean Code
 
 * SOLID
 * DRY
 * YAGNI
 * KISS
 
-# Microservices Patterns
+## Microservices Patterns
 
 * 12 factor
 * Decomposition by subdomain (bounded context)
@@ -55,7 +55,7 @@
 * Gateway Routing & Gateway Offloading
 * Strangler Fig
 
-NFR
+## NFR
 
 * Performance
 * Availability
