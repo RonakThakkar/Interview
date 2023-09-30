@@ -1,8 +1,11 @@
 # C#
 
 Immutable string
+
 Partial Class
+
 Extension Methods
+
 Delegate, Lambda Expressions
 Types of collections
 ArrayList VS GenericList
