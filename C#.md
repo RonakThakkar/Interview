@@ -40,4 +40,3 @@
 * Messaging
  * RabbitMQ.Client
  * Confluent.Kafka
-* 
