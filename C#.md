@@ -17,10 +17,27 @@
 ## Nuget Libraries
 
 * Logging - NLog, Serilog
-* Serialization - Newtonsoft.Json
-* Polly - Retry handling
+* Serialization
+ * Json - Json.NET (Newtonsoft)
+ * Binary - Protobuf-Net
+* Zip Compression
+ * SharpZipLib
+* Unit Testing - XUnit
+* OpenAPI - Swagger (SwashBuckle)
+* IoC - Autofac
+* Mapping - AutoMapper
+* Polly - Retry Handling
+* Security
+ * IdentityServer4
+ * Microsoft.AspNetCore.Identity
 * Cloud
   * AWS.SDK
 * Databases
-  * Redis
+  * EntityFramework, Dapper
+  * StackExchange.Redis
+  * Elastic (NEST)
   * MongoDb
+* Messaging
+ * RabbitMQ.Client
+ * Confluent.Kafka
+* 
