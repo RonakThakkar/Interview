@@ -21,11 +21,11 @@ Write a program to print fibonacci series.
 Create table schema for Department and Employee
 
 **Relationship**
+* 1 Department can have many employees.
+* 1 Employee can belong to 1 department only.
 
-1 Department can have many employees.
-1 Employee can belong to 1 department only.
-
-Write an to show employee name and department name
-Write a query to get count of employees per department
+**Questions**
+* Write an to show employee name and department name
+* Write a query to get count of employees per department
 
 
