@@ -59,10 +59,10 @@ var employees = from emp in ctx.Employees
 
 ```csharp
 var employees = ctx.Employees
-                .Where(emp => emp.City == "pune")
-                .Select(emp => {
-                    emp.FirstName,
-                    emp.LastName
+                   .Where(emp => emp.City == "pune")
+                   .Select(emp => {
+                      emp.FirstName,
+                      emp.LastName
                 });
 ```
 
@@ -85,8 +85,8 @@ var employeeCount = from emp in ctx.Employees
 
 ```csharp
 var employeeCount = ctx.Employees.GroupBy(q => q.City)
-                    .Select(cityGroup => {
-                        City = cityGroup.Key,
-                        EmployeeCount = cityGroup.Count()
-                    });
+                                 .Select(cityGroup => {
+                                    City = cityGroup.Key,
+                                    EmployeeCount = cityGroup.Count()
+                                  });
 ```
