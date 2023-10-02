@@ -25,16 +25,20 @@ How to add TenantId filter in each query executed agianst database
 
 **Query Syntax**
 
+```csharp
 var employees = from emp in ctx.Employees
                 where emp.city = "pune"
                 orderby emp.FirstName, emp.LastName
                 select emp;
+```
 
 **Method Syntax**
 
+```csharp
 var employees = ctx.Employees.Where(emp => emp.City == "pune")
                              .OrderBy(emp => emp.FirstName)
                              .ThenBy(emp => emp.LastName);
+```
 
 <br/>
 
@@ -42,21 +46,25 @@ var employees = ctx.Employees.Where(emp => emp.City == "pune")
 
 **Query Syntax**
 
+```csharp
 var employees = from emp in ctx.Employees
                 where emp.city = "pune"
-                select new { 
-                  emp.FirstName, 
-                  emp.LastName
+                select new {
+                    emp.FirstName,
+                    emp.LastName
                 };
+```
 
 **Method Syntax**
 
+```csharp
 var employees = ctx.Employees
                 .Where(emp => emp.City == "pune")
                 .Select(emp => {
-                  emp.FirstName,
-                  emp.LastName
-                });  
+                    emp.FirstName,
+                    emp.LastName
+                });
+```
 
 <br/>
 
@@ -64,17 +72,21 @@ var employees = ctx.Employees
 
 **Query Syntax**
 
+```csharp
 var employeeCount = from emp in ctx.Employees
                     group emp by emp.City into cityGroup
-                    select new { 
-                      City = cityGroup.Key, 
-                      EmployeeCount = cityGroup.Count()
+                    select new {
+                        City = cityGroup.Key,
+                        EmployeeCount = cityGroup.Count()
                     };
+```
 
 **Method Syntax**
 
+```csharp
 var employeeCount = ctx.Employees.GroupBy(q => q.City)
                     .Select(cityGroup => {
-                      City = cityGroup.Key,
-                      EmployeeCount = cityGroup.Count()
+                        City = cityGroup.Key,
+                        EmployeeCount = cityGroup.Count()
                     });
+```
