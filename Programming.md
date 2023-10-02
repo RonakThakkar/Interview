@@ -1,4 +1,6 @@
-# PRogramming questions
+# Programming questions
+
+## C# 
 
 Write a class for stack with Push and Pop methods.
 
