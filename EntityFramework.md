@@ -20,6 +20,7 @@ How to add TenantId filter in each query executed agianst database
 
 ## Queries
 
+
 ### Get all employees in city=pune sort by employee name
 
 **Query Syntax**
@@ -34,6 +35,7 @@ var employees = from emp in ctx.Employees
 var employees = ctx.Employees.Where(emp => emp.City == "pune")
                              .OrderBy(emp => emp.FirstName)
                              .ThenBy(emp => emp.LastName);
+
 
 ### Extend above query and select only required fields.
 
@@ -54,6 +56,7 @@ var employees = ctx.Employees
                   emp.FirstName,
                   emp.LastName
                 });
+
 
 ### Get employee count per city.
 
