@@ -4,9 +4,13 @@
 * Write a loop that will print following output.
 
 1
+
 12
+
 123
+
 1234
+
 12345
 
 * Write a program to reverse a string.
