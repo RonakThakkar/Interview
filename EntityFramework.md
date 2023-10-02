@@ -34,9 +34,8 @@ var employees = from emp in ctx.Employees
 
 var employees = ctx.Employees.Where(emp => emp.City == "pune")
                              .OrderBy(emp => emp.FirstName)
-                             .ThenBy(emp => emp.LastName);  
+                             .ThenBy(emp => emp.LastName);   
 
-  
 ### Extend above query and select only required fields.
 
 **Query Syntax**
@@ -55,9 +54,8 @@ var employees = ctx.Employees
                 .Select(emp => {
                   emp.FirstName,
                   emp.LastName
-                });
+                });  
 
-  
 ### Get employee count per city.
 
 **Query Syntax**
