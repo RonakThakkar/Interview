@@ -18,7 +18,7 @@ Write a program to print fibonacci series.
 
 ## SQL
 
-#### Join Question
+### Join Question
 
 Create table schema for Department and Employee
 
