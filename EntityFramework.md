@@ -35,9 +35,10 @@ var employees = from emp in ctx.Employees
 **Method Syntax**
 
 ```csharp
-var employees = ctx.Employees.Where(emp => emp.City == "pune")
-                             .OrderBy(emp => emp.FirstName)
-                             .ThenBy(emp => emp.LastName);
+var employees = ctx.Employees
+                   .Where(emp => emp.City == "pune")
+                   .OrderBy(emp => emp.FirstName)
+                   .ThenBy(emp => emp.LastName);
 ```
 
 <br/>
@@ -84,9 +85,10 @@ var employeeCount = from emp in ctx.Employees
 **Method Syntax**
 
 ```csharp
-var employeeCount = ctx.Employees.GroupBy(q => q.City)
-                                 .Select(cityGroup => {
-                                    City = cityGroup.Key,
-                                    EmployeeCount = cityGroup.Count()
-                                  });
+var employeeCount = ctx.Employees
+                       .GroupBy(q => q.City)
+                       .Select(cityGroup => {
+                            City = cityGroup.Key,
+                            EmployeeCount = cityGroup.Count()
+                       });
 ```
