@@ -39,3 +39,9 @@ https://blog.stephencleary.com/2010/08/various-implementations-of-asynchronous.h
 
 ## Advanced .NET Pragramming
 https://learn.microsoft.com/en-us/dotnet/navigate/advanced-programming/
+
+<br>
+
+## ASP.NET Core
+
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices?view=aspnetcore-9.0
