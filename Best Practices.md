@@ -8,6 +8,13 @@
   * Doing a database operation
   * Uploading a file   
 * For CPU-bound code, you await an operation that is started on a background thread with the Task.Run method.
+  * https://medium.com/@rajatsikder/asynchronous-what-is-task-run-358b09651b4f
+  * https://www.bytehide.com/blog/task-run-csharp
+
+https://www.pluralsight.com/resources/blog/guides/advanced-tips-using-task-run-async-wait
+
+https://www.bytehide.com/blog/async-await-csharp
+https://www.bytehide.com/blog/task-run-csharp
 
 <br>
 
