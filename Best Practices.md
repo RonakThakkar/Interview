@@ -9,6 +9,7 @@
   * Uploading a file   
 * For CPU-bound code, you await an operation that is started on a background thread with the Task.Run method.
 
+<br>
 
 ### Multiple async calls
 
@@ -22,6 +23,7 @@ https://www.roundthecode.com/dotnet-tutorials/how-to-use-csharp-async-await-api-
 
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/start-multiple-async-tasks-and-process-them-as-they-complete
 
+<br>
 
 ### Different Implementatin of async model
 https://blog.stephencleary.com/2010/08/various-implementations-of-asynchronous.html
